@@ -125,9 +125,6 @@ delay(quarter);
 
 // Alex test comment
 
-// Brandon code section
-int C4 = 262;
-
 }
 void loop() {}
 
