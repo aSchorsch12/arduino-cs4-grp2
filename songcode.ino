@@ -122,6 +122,9 @@ tone(output, D);
 delay(quarter);
 tone(output, G);
 delay(quarter);
+
+// Brandon code section
+
 }
 void loop() {}
 
