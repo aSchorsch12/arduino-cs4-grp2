@@ -124,7 +124,6 @@ tone(output, G);
 delay(quarter);
 
 // Alex test comment
-int D4 = 330;
 
 }
 void loop() {}
