@@ -124,6 +124,7 @@ tone(output, G);
 delay(quarter);
 
 // Alex test comment
+int D4 = 330;
 
 // Brandon code section
 int C4 = 262;
