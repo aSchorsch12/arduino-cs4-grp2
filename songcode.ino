@@ -5,7 +5,7 @@ float B = 493.9;
 float C = 261.6;
 float C5 = 523.3;
 float D = 293.7;
-float D5 = 587.3
+float D5 = 587.3;
 float E = 329.6;
 float F = 349.2;
 int G = 392;
@@ -28,7 +28,6 @@ delay(whole);
 
 tone(output, A);
 delay(half);
-
 tone(output, D);
 delay(half);
 
@@ -37,44 +36,55 @@ delay(whole);
 
 tone(output, C5);
 delay(quarter);
-
 tone(output, B);
 delay(quarter);
-
 tone(output, G);
 delay(quarter);
+tone(output, D);
+delay(quarter);
+//Line 2
+tone(output, E);
+delay(whole);
 
 tone(output, D);
 delay(quarter);
-  //I am confused as to what one of the notes are here so i skip this line for rn line 2
+tone(output, G);
+delay(quarter);
+tone(output, D);
+delay(quarter);
+noTone(output);
+delay(quarter);
+
+tone(output, A);
+delay(half);
+tone(output, B);
+delay(half);
+
+tone(output, C5);
+delay(half);
+tone(output, D5);
+delay(half);
 //Line 3
 tone(output, E);
 delay(quarter);
-
 tone(output, F);
 delay(quarter);
-
 tone(output, G);
 delay(quarter);
-
 tone(output, A);
 delay(quarter);
 
 tone(output, G);
 delay(quarter);
-
 tone(output, D);
 delay(dothalf);
 
 tone(output, E);
 delay(quarter);
-
 tone(output, F);
 delay(quarter);
-
 tone(output, G);
 delay(quarter);
-
 tone(output, A);
 delay(quarter);
 //Line 4
@@ -83,28 +93,21 @@ delay(whole);
 
 tone(output, E);
 delay(quarter);
-
 tone(output, F);
 delay(quarter);
-
 tone(output, G);
 delay(quarter);
-
 tone(output, G);
 delay(sixteenth);
-
 tone(output, A);
 delay(sixteenth);
 
 tone(output, G);
 delay(quarter);
-
 tone(output, D);
 delay(quarter);
-
 tone(output, B);
 delay(half);
-
 //Line 9
 tone(output, B);
 delay(half);
@@ -116,15 +119,67 @@ delay(quarter);
 tone(output, E);
 delay(whole);
 
-noTone(output)
-delay(half)
+noTone(output);
+delay(half);
 tone(output, D);
 delay(quarter);
 tone(output, G);
 delay(quarter);
+//Line 10
+tone(output, C5);
+delay(half);
+tone(output, B);
+delay(half);
 
-// Alex test comment
+tone(output, A);
+delay(whole);
 
+tone(output, A);
+delay(whole);
+
+noTone(output);
+delay(half);
+tone(output, E);
+delay(quarter);
+tone(output, F);
+delay(quarter);
+//Line 11
+tone(output, G);
+delay(half);
+tone(output, D);
+delay(quarter);
+tone(output, D);
+delay(quarter);
+
+tone(output, D5);
+delay(half);
+tone(output, B);
+delay(half);
+
+tone(output, G);
+delay(quarter);
+tone(output, G);
+delay(quarter);
+tone(output, E);
+delay(half);
+
+tone(output, C5);
+delay(half);
+tone(output, B);
+delay(half);
+//Line 12
+tone(output, A);
+delay(half);
+tone(output, B);
+delay(half);
+
+tone(output, A);
+delay(whole);
+
+tone(output, A);
+delay(dothalf);
+tone(output, D);
+delay(quarter);
 }
 void loop() {}
 
