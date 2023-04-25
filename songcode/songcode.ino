@@ -119,7 +119,7 @@ tone(output, B);
 delay(quarter);
 
 tone(output, A);
-delay(Whole);
+delay(whole);
 
 tone(output, E);
 delay(quarter);
@@ -285,7 +285,7 @@ delay(quarter);
 tone(output, E);
 delay(whole);
 
-notone(output);
+noTone(output);
 delay(half);
 tone(output, D);
 delay(quarter);
@@ -303,7 +303,7 @@ delay(whole);
 tone(output, A);
 delay(whole);
 
-notone(output);
+noTone(output);
 delay(half);
 tone(output, E);
 delay(quarter);
