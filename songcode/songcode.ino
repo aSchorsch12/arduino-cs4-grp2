@@ -309,6 +309,7 @@ tone(output, E);
 delay(quarter);
 tone(output, F);
 delay(quarter);
+  
 //Line 16
 tone(output, G);
 delay(half);
@@ -319,7 +320,7 @@ delay(quarter);
 
 tone(output, D5);
 delay(half);
-tone(output, B);
+tone(output, C);
 delay(half);
 
 tone(output, G);
