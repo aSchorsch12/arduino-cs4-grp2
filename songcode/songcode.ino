@@ -330,6 +330,20 @@ tone(output, E);
 delay(quarter);
 tone(output, D);
 delay(quarter);
+
+  tone(output, C);
+  delay(half);
+  tone(output, B);
+  delay(half);
+  tone(output, A);
+  delay(half);
+  tone(output, G);
+  delay(half);
+  tone(output, G);
+  delay(whole);
+  tone(output, G);
+  delay(whole);
+  // END
 }
 void loop() {}
 
